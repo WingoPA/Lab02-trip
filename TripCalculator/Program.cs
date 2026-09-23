@@ -58,7 +58,7 @@ Console.WriteLine("Take home pay: " + takeHome.ToString("F1"));
 //Whole Trip
 
 double tripTotal = totalCost + pizzaCost;
-double costPerPerson = totalCost / guestList;
+double costPerPerson = tripTotal / guestList;
 double takeHomePayPerHour = takeHome / hoursWorked;
 double hoursMustWork = costPerPerson / takeHomePayPerHour;
 
