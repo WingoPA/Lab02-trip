@@ -1,4 +1,12 @@
-﻿//Roadtrip
+﻿/* 
+* Name: Peyton Wingo
+* Course CSCI 1250, Section 002
+* Assignment: Lab 02, Trip Calculator
+* Date: 9-28-26
+* Description: Calculates feul, food, and work hours behind one road trip
+*/
+
+//Roadtrip
 Console.WriteLine("What is the round trip in miles");
 int roundTripMiles = Convert.ToInt32(Console.ReadLine());
 
@@ -66,3 +74,48 @@ Console.WriteLine("Trip total: " + tripTotal.ToString("C"));
 Console.WriteLine("Cost per person: " + costPerPerson.ToString("C"));  
 Console.WriteLine("Take home pay: " + takeHomePayPerHour.ToString("C"));  
 Console.WriteLine("Hours you must work: " + hoursMustWork.ToString("F2"));
+
+//the complete run
+
+Console.WriteLine(" ");
+Console.WriteLine("=== Part 1: Road Trip ===");
+
+Console.WriteLine("Round trip miles: " + roundTripMiles.ToString("F1"));
+Console.WriteLine("Miles per gallon: " + milesPerGallon.ToString("F1"));
+Console.WriteLine("Price per gallon: " + fuelCost.ToString("F2"));
+Console.WriteLine(" ");
+
+Console.WriteLine("Gallons needed: " + gallonsNeeded.ToString("F2"));
+Console.WriteLine("Fuel cost: " + totalCost.ToString("F2"));
+Console.WriteLine(" ");
+
+Console.WriteLine("=== Part 2: Pizza party ===");
+
+Console.WriteLine("How many people are going: " + guestList.ToString("F1"));
+Console.WriteLine("How many pizzas: " + howManyPizza.ToString("F1"));
+Console.WriteLine("Price per pizza: " + pricePerPizza.ToString("F2"));
+Console.WriteLine(" ");
+
+Console.WriteLine("Total slices: " + totalSlices.ToString("F1"));
+Console.WriteLine("Slices per person: " + slicesPerPerson.ToString("F1"));
+Console.WriteLine("Pizza cost: " + pizzaCost.ToString("C"));
+Console.WriteLine(" ");
+
+Console.WriteLine("=== Part 3: Paycheck ===");
+
+Console.WriteLine("Hours worked this week: " + hoursWorked.ToString("F1"));
+Console.WriteLine("Hourly rate: " + hourlyRate.ToString("F2"));
+Console.WriteLine(" ");
+
+Console.WriteLine("Gross pay: " + grossPay.ToString("C"));
+Console.WriteLine("Tax withheld: " + taxWithHeld.ToString("C"));
+Console.WriteLine("Take home pay: " + takeHome.ToString("C") );
+Console.WriteLine(" ");
+
+Console.WriteLine("=== Part 4: The Whole trip ===");
+
+Console.WriteLine(" ");
+Console.WriteLine("Trip total: " + tripTotal.ToString("C"));
+Console.WriteLine("Cost per person: " + costPerPerson.ToString("C"));
+Console.WriteLine("Take home pay per hour: " + takeHomePayPerHour.ToString("C"));
+Console.WriteLine("Hours you must work to cover your share: " + hoursMustWork.ToString("C"));
