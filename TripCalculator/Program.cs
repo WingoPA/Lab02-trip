@@ -77,44 +77,47 @@ Console.WriteLine("Hours you must work: " + hoursMustWork.ToString("F2"));
 
 //the complete run
 
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 Console.WriteLine("=== Part 1: Road Trip ===");
 
+System.Console.WriteLine("");
 Console.WriteLine("Round trip miles: " + roundTripMiles.ToString("F1"));
 Console.WriteLine("Miles per gallon: " + milesPerGallon.ToString("F1"));
 Console.WriteLine("Price per gallon: " + fuelCost.ToString("F2"));
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 
 Console.WriteLine("Gallons needed: " + gallonsNeeded.ToString("F2"));
 Console.WriteLine("Fuel cost: " + totalCost.ToString("F2"));
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 
 Console.WriteLine("=== Part 2: Pizza party ===");
 
+System.Console.WriteLine("");
 Console.WriteLine("How many people are going: " + guestList.ToString("F1"));
 Console.WriteLine("How many pizzas: " + howManyPizza.ToString("F1"));
 Console.WriteLine("Price per pizza: " + pricePerPizza.ToString("F2"));
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 
 Console.WriteLine("Total slices: " + totalSlices.ToString("F1"));
 Console.WriteLine("Slices per person: " + slicesPerPerson.ToString("F1"));
 Console.WriteLine("Pizza cost: " + pizzaCost.ToString("C"));
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 
 Console.WriteLine("=== Part 3: Paycheck ===");
 
+System.Console.WriteLine("");
 Console.WriteLine("Hours worked this week: " + hoursWorked.ToString("F1"));
 Console.WriteLine("Hourly rate: " + hourlyRate.ToString("F2"));
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 
 Console.WriteLine("Gross pay: " + grossPay.ToString("C"));
 Console.WriteLine("Tax withheld: " + taxWithHeld.ToString("C"));
 Console.WriteLine("Take home pay: " + takeHome.ToString("C") );
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 
 Console.WriteLine("=== Part 4: The Whole trip ===");
 
-Console.WriteLine(" ");
+System.Console.WriteLine("");
 Console.WriteLine("Trip total: " + tripTotal.ToString("C"));
 Console.WriteLine("Cost per person: " + costPerPerson.ToString("C"));
 Console.WriteLine("Take home pay per hour: " + takeHomePayPerHour.ToString("C"));
